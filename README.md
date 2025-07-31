@@ -40,3 +40,15 @@ Allows updating the string via an API endpoint (POST /update)
 Returns the saved string at the root endpoint (GET /)
 
 This allows updating the string without redeploying the container.
+
+📦 Deployment Steps
+# Clone repo
+git clone https://github.com/eavilaw/meraparesteban.git
+cd meraparesteban/meraparchallenge
+
+# Review variables and set your own if needed
+vi terraform.tfvars
+
+# Initialize and apply Terraform
+terraform init
+terraform apply

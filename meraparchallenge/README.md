@@ -47,6 +47,7 @@ Returns the saved string at the root endpoint (GET /)
 This allows updating the string without redeploying the container.
 
 📦 Deployment Steps
+# Clone repo
 git clone https://github.com/eavilaw/meraparesteban.git
 cd meraparesteban/meraparchallenge
 
